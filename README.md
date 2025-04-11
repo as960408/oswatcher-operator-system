@@ -1,3 +1,6 @@
+#오퍼레이터 설명: 노션정리
+- https://www.notion.so/OS-CHECKER-controller-1d2874cf2b16804db13ef450e0be94e8
+
 # oswatcher-operator
 // TODO(user): Add simple overview of use/purpose
 
