@@ -1,0 +1,9 @@
+apiVersion: monitoring.oswatcher.io/v1
+kind: OSStatus
+metadata:
+  labels:
+    app.kubernetes.io/name: oswatcher-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: osstatus-sample
+spec:
+  # TODO(user): Add fields here

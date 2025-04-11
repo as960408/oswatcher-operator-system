@@ -1,0 +1,35 @@
+{
+  "apiVersion": "monitoring.oswatcher.io/v1",
+  "kind": "OSStatus",
+  "metadata": {
+    "name": "node-example",
+    "namespace": "default"
+  },
+  "spec": {
+    "nodeName": "node01",
+    "nodeIP": "192.168.1.10",
+    "cpuUsage": "17%",
+    "memUsage": "30%",
+    "rootUsage": "40%",
+    "uptime": "3 days",
+    "collectedAt": "2025-04-11T10:00:00Z",
+    "topCPUProcs": [
+      {
+        "pid": "123",
+        "user": "root",
+        "command": "nginx",
+        "cpu": "10%",
+        "mem": "5%"
+      }
+    ],
+    "topMemProcs": [
+      {
+        "pid": "456",
+        "user": "app",
+        "command": "java",
+        "cpu": "3%",
+        "mem": "12%"
+      }
+    ]
+  }
+}
